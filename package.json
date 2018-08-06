@@ -4,5 +4,16 @@
   "main": "index.js",
   "repository": "https://github.com/MistColoured/Grid.git",
   "author": "Michael Allen <mike@mistColoured.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack --config webpack.config.js",
+    "build": "webpack-dev-server --hot"
+  },
+  "quokka": {
+    "babel": true
+  },
+  "devDependencies": {
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
 }
