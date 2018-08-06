@@ -1,0 +1,8 @@
+{
+  "name": "Grid",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MistColoured/Grid.git",
+  "author": "Michael Allen <mike@mistColoured.com>",
+  "license": "MIT"
+}
